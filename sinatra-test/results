@@ -1,0 +1,26 @@
+# time siege -c300 -r50 http://localhost:4567/hi
+
+done.
+Transactions:		       15000 hits
+Availability:		      100.00 %
+Elapsed time:		       46.89 secs
+Data transferred:	        0.17 MB
+Response time:		        0.28 secs
+Transaction rate:	      319.90 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       89.68
+Successful transactions:       15000
+Failed transactions:	           0
+Longest transaction:	        3.24
+Shortest transaction:	        0.00
+ 
+FILE: /var/siege.log
+You can disable this annoying message by editing
+the .siegerc file in your home directory; change
+the directive 'show-logfile' to false.
+[error] Unable to write to file: Permission denied
+
+real	0m46.902s
+user	0m1.408s
+sys	0m3.644s
+
