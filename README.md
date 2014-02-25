@@ -1,8 +1,10 @@
-= Light servers benchmark
+ruby servers benchmark
+=======================
 
 Quick performance comparison between sinatra and goliath
 
-== sinatra
+sinatra
+-------
 
 ```
 cd sinatra-test
@@ -16,7 +18,8 @@ then hit it with siege
 time siege -c300 -r50 http://localhost:4567/hi
 ```
 
-== Goliath
+Goliath
+-------
 
 Goliath is asynchronous server which is expected to be more scalable and better
 
@@ -32,6 +35,7 @@ then hit it with siege
 time siege -c300 -r50 http://localhost:4567/hi
 ```
 
-== results
+results
+-------
 
-showing for each up at "results" file
+Showing up for each test in the related "results" file
